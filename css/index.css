@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+#head1{font-family: 'Dancing Script', cursive;}
+
+/*for laptops and above*/
+@media screen and (min-width: 950px) {
+    #signin{
+        display: block;
+        width: 25%;
+    }
+}

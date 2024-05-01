@@ -1,0 +1,52 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: theriturajps
+brief-intro: Student
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://the.riturajps.in" # the base hostname & protocol for your site
+
+permalink: /:year/:month/:day/:title/
+
+# other links
+twitter_username: riturajps
+facebook_username: riturajpsofficial
+github_username:  theriturajps
+email: iamriturajps@gmail.com
+
+description_footer: This site records the scenery along the way of my IT journey!
+
+# comments
+# two ways to comment, only choose one, and use your own short name
+# There are two comment plug-ins, just choose one and use your own short_name
+disqus_shortname: gaohaoyang
+
+# statistic analysis statistical code
+# google statistics id, replace the statistics code with your own Baidu statistics id, that is
+google_analytics_id: 
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# port
+# port: 1234
+
+# url
+category_dir: category/
+tag_dir: tag/
+
+# excerpt
+excerpt_separator: "\n\n\n\n"
+
+# paginate
+gems: [jekyll-paginate]
+paginate: 5
